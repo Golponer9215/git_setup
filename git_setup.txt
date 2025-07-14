@@ -1,0 +1,90 @@
+How to Install Git Step-by-Step
+Go to https://git-scm.com
+
+Click Download for your computer (Windows, Mac, or Linux).
+
+After downloading, install it by clicking Next all the way.
+
+When done, open your Terminal or Command Prompt.
+
+Type this command to check if Git was installed:
+
+git --version
+If you see something like git version 2.41.0, it means it worked!
+
+Set Up Git (First Time)
+After installing Git, you need to tell it who you are.
+
+Open your terminal and type:
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+Replace "Your Name" and "you@example.com" with your real name and email.
+
+How to Use GitHub
+Step 1: Create a GitHub Account
+Go to https://github.com
+
+Sign up with your email and password.
+
+Step 2: Create a Repository (Project Folder)
+After logging in, click the + at the top-right and choose "New repository".
+
+Type your repository name (e.g., my-first-project).
+
+You can add a short description (optional).
+
+Choose Public or Private.
+
+Click Create repository.
+
+💻 Link Git with GitHub (Push Your Code)
+Step-by-step
+Open your terminal
+
+Go to your project folder:
+
+bash
+Copy
+Edit
+cd path-to-your-folder
+Initialize Git in that folder:
+
+git init
+Add your files:
+
+git add .
+Commit your changes:
+
+
+git commit -m "First commit"
+Connect your GitHub repo:
+
+
+git remote add origin https://github.com/yourusername/your-repo-name.git
+Push (upload) your code:
+
+
+git push -u origin main
+
+ Challenges i Face
+1. Git Commands Confusing
+Sometimes it’s hard to remember commands like git add, git commit, and git push.
+
+Tip: Write them down or use a cheat sheet until you get used to it.
+
+2. Error Messages
+You might see errors like:
+
+"Permission denied"
+
+"fatal: not a git repository"
+
+Tip: Don’t panic. Just Google the error message. Everyone sees them when learning!
+
+3. Push Failed
+This happens when you try to push code without setting things up properly.
+
+Tip: Make sure you did git remote add origin ... and that your GitHub repo is empty.
+
+
