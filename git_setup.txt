@@ -1,3 +1,63 @@
+#QUESTION 1
+ What is Version Control?
+Version control is a system that helps you track changes in your files or code over time.
+
+Think of it like a "save game" feature in a video game — every time you save, you can go back to that point later. In coding, version control lets you save your project at different stages and go back if needed.
+
+#QUESTION 2
+What is Version Control Used For?
+Version control is used to:
+
+Save versions of your project (code, documents, etc.)
+
+Undo mistakes by going back to older versions
+
+Work with a team without overwriting each other’s work
+
+See who changed what and when
+
+Try new things without breaking your original code
+
+QUESTION3
+What is Git?
+Git is a free tool (a type of version control system) that helps you manage your code versions locally on your computer.
+
+With Git, you can:
+
+Save your code history
+
+Switch between different versions
+
+Work on new features without affecting your main project
+
+Git works offline, meaning you don’t need internet to use it.
+
+QUESTION4
+What is GitHub?
+GitHub is a website where you can store your Git projects online. It's like a cloud storage for your code.
+
+With GitHub, you can:
+
+Save your code online
+
+Share it with others
+
+Collaborate with teammates
+
+Work on open-source projects
+
+Use tools like pull requests and issues
+
+#QUESTION5
+Difference Between Git and GitHub
+
+
+Git = the tool that tracks your code
+
+GitHub = where you can upload your Git-tracked code to share it online
+
+
+#QUESTION6
 How to Install Git Step-by-Step
 Go to https://git-scm.com
 
